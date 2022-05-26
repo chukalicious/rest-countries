@@ -1,8 +1,12 @@
 import "./App.css";
+import Box from "@mui/material/Box";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div style={{ fontWeight: "800", fontSize: "3rem" }}> Nunito Sans</div>
+    <Box>
+      <Navbar />{" "}
+    </Box>
   );
 }
 
