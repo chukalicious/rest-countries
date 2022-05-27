@@ -7,12 +7,11 @@ import Button from "@mui/material/Button";
 const Navbar = () => {
   return (
     <AppBar position="sticky">
-      <p>This is the Navbar</p>{" "}
-      <Toolbar>
-        <p>This is the Toolbar (all items of the navbar will go in here)</p>{" "}
+      <Toolbar sx={{ width: "100%", justifyContent: "space-between" }}>
+        <h1>Where in the World?</h1>{" "}
         <Button
           variant="text"
-          color="secondary"
+          sx={{ color: "#fff" }}
           startIcon={<DarkModeOutlinedIcon />}
         >
           Dark Mode (in Toolbar 2)
