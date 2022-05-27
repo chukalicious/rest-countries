@@ -9,15 +9,16 @@ import SearchSharpIcon from "@mui/icons-material/SearchSharp";
 export default function SearchField() {
   return (
     <FormControl fullWidth sx={{ m: 1 }}>
-      <InputLabel htmlFor="outlined-adornment-amount">Enter country</InputLabel>
+      <InputLabel htmlFor="outlined-adornment-amount">Enter Country</InputLabel>
       <OutlinedInput
         id="outlined-adornment-amount"
+        placeholder="Search for a country..."
         startAdornment={
           <InputAdornment position="start">
             <SearchSharpIcon />{" "}
           </InputAdornment>
         }
-        label="Amount"
+        label="enter country"
       />
     </FormControl>
   );
