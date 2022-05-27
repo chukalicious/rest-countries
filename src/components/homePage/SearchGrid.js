@@ -2,6 +2,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 
 import RegionOptions from "./RegionOptions";
+import SearchField from "./SearchField";
 
 const SearchGrid = () => {
   return (
@@ -18,7 +19,7 @@ const SearchGrid = () => {
         lg={4}
         //   sx={{ border: "red solid 2px" }}
       >
-        <p>Input 1</p>
+        <SearchField />
       </Grid>
       <Grid
         item
